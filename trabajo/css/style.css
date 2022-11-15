@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orchid;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: pink;
+ height: 150px;
+ display:flex;
+ justify-content: center;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: orchid;
+    height: 120px;
+}
+
+hr {
+    margin: 60px;
+    border: 2px solid orchid;
+}
+
+menu {
+    display: inline;
+    padding: 12px 15px 12px 15px;
+}
+
+.menu__lista li {
+    display: inline;
+    float: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu__lista ul {
+    list-style-type: circle;
+    margin: 0px;
+    padding: 0px;
+    overflow:scroll;
+
+}
+
+.menu__lista li a {
+    display: inline-flex;
+    color:black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.titulo_info {
+    font-style: oblique;
+    color: black;
+    height: 60px;
+    text-align: center;
+    padding: center;
+}
+
+.p__info {
+    text-align: right;
+    margin: auto;
+    padding: 10px;
+    font-weight: 300;
+    width: 80%;
+}
+
+#tabla_contenido {
+    width: 80%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+    font-size: medium;
+
+}
+
+.button {
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black;
+}
+
+
+
+
+
